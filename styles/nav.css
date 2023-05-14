@@ -23,6 +23,10 @@ nav ul li ul {
   position: absolute;
 }
 
+nav ul li ul li ul {
+  visibility: hidden;
+  color: yellowgreen;
+}
 nav ul li:hover ul {
   visibility: visible;
   margin: 1px;
